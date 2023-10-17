@@ -1,0 +1,80 @@
+
+:root {
+    --main-color: #F9FAF8;
+    --secondary-color: #1F2937;
+    --white-color:#E5E7EB;
+}
+
+
+
+/* INITIAL COLORING AND DECORATION */
+.hero ,footer{
+    background-color: var(--secondary-color);
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight:900;
+    color:var(--main-color); 
+}
+.hero-secondary-text,.header-link-text{
+    font-size: 18px;
+    color:var(--white-color);
+}
+.header-logo-text{
+    color:var(--main-color);
+    font-size: 24px;
+}
+button,.call-to-action{
+    background-color: #3882F6;
+    color:var(--white-color)
+}
+
+.information-header-text{
+    font-weight: 900;
+    font-size:36px;
+    color:var(--main-color);
+}
+.quote-section{
+    background-color: var(--white-color);
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    color: var(--seceondary-color);
+    font-style: italic;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+body>*{
+    padding: 0 10%;
+}
+
+nav{
+    display: flex;
+    
+}
+ul,li{
+    list-style: none;
+}
+.header-logo-holder{
+    display: flex;
+    flex:1;
+}
+
+.header-link-holder{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.header-logo-text{
+    justify-content: flex-start;
+}
+.header-link-text{
+    display: flex;
+    gap:2em;
+}
+
+
