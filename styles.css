@@ -32,7 +32,8 @@ button,.call-to-action{
 .information-header-text{
     font-weight: 900;
     font-size:36px;
-    color:var(--main-color);
+    /* color:var(--main-color); */
+    color:black;
 }
 .quote-section{
     background-color: var(--white-color);
@@ -47,6 +48,7 @@ button,.call-to-action{
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 body>*{
     padding: 0 10%;
@@ -59,6 +61,8 @@ nav{
 ul,li{
     list-style: none;
 }
+
+
 .header-logo-holder{
     display: flex;
     flex:1;
@@ -77,4 +81,108 @@ ul,li{
     gap:2em;
 }
 
+.header-hero-section{
+    display: flex;
+    padding: 6em 0;
+}
 
+.wrapper-hero-main{
+    flex:1;
+}
+
+.wrapper-hero-main>button{
+    border:none;
+    border-radius: 0.5em;
+    padding: 0.7em 2em;
+    font-weight: 1000;
+}
+
+.img-holder{
+    flex:1;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6%;
+}
+
+.main-img{
+    display: flex;
+}
+
+.img-replacement{
+    /* background-color: gray; */
+    
+}
+
+.image-tile{
+    max-width: 120px;
+    text-align: center;
+    margin: 0 2em;
+    font-size: 0.9em;
+}
+.img-box{
+    height: 120px;
+    width: 120px;
+    border:  solid #3882F6 3px;
+    border-radius: 0.7em;
+}
+
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30%;
+}
+.quote-text{
+    margin-bottom: -6%;
+}
+.quote-author{
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.call-to-action{
+    display: flex;
+    padding: 1em 3em;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.call-to-action{
+    border-radius: 0.4em;
+    margin: 7em;
+    height: 7em;
+}
+.call-to-action1{
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: -0.8em;
+}
+
+.call-to-action-button{
+    border: solid white 1px;
+    border-radius: 0.5em;
+    padding: 0.7em 2.5em;
+    font-weight: 1000;
+    font-size: 1.05em;
+}
+
+
+footer{
+    color:white;
+    text-align: center;
+}
